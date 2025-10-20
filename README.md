@@ -13,7 +13,9 @@ pnpm dev
 # or
 bun dev
 ```
-
+通过pm2在服务器生产环境启动
+端口需要根据实际情况填写
+pm2 start npm --name "yijiarui-website" -- start -- -p 3001
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
